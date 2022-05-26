@@ -76,3 +76,11 @@ func (blk *Block) TransactionCount() *int32 {
 	count := int32(len(blk.Txs))
 	return &count
 }
+
+// TransactionCount resolves number of transactions in the block.
+func (blk *Block) Miner() *common.Address {
+	miner := blk.Miner()
+	// return *miner
+
+	return miner
+}
