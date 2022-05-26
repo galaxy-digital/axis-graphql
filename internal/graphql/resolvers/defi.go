@@ -68,7 +68,7 @@ func (dt *DefiToken) Allowance(args *struct{ Owner common.Address }) (hexutil.Bi
 
 // CanWrapAXIS signals if the token can be used to wrap native AXIS
 // to get some amount of it.
-func (dt *DefiToken) CanWrapAXIS() bool {
+func (dt *DefiToken) CanWrap() bool {
 	return dt.Symbol == defiAXISSymbol
 }
 
