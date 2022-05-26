@@ -20,9 +20,9 @@ type DefiToken {
     # in the DeFi functions at all.
     isActive: Boolean!
 
-    # canWrapAXIS signals if the token can be used
+    # canWrap signals if the token can be used
     # to wrap native AXIS tokens for DeFi trading.
-    canWrapAXIS: Boolean!
+    canWrap: Boolean!
 
     # canDeposit signals if the token can be used
     # in deposit as a collateral asset.
