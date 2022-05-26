@@ -10,7 +10,7 @@ type Block {
     parent: Block
 
     # Miner is the producer of block
-    miner: Address!
+    # miner: Address!
 
     # TransactionCount is the number of transactions in this block.
     transactionCount: Int
